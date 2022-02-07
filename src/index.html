@@ -1,0 +1,48 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Mall</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <!-- Logo -->
+    <img src="../img/logo.png" alt="logo" class="logo" id="logo" />
+    <!-- Buttons-->
+    <section class="buttons" id="buttons">
+      <button id="btn__tshirt">
+        <img
+          src="../img/blue_t.png"
+          alt="tshirt"
+          data-value="tshirt"
+          class="btn__img"
+        />
+      </button>
+      <button id="btn__pants">
+        <img
+          src="../img/blue_p.png"
+          alt="pants"
+          data-value="pants"
+          class="btn__img"
+        />
+      </button>
+      <button id="btn__skirt">
+        <img
+          src="../img/blue_s.png"
+          alt="skirt"
+          data-value="skirt"
+          class="btn__img"
+        />
+      </button>
+      <button class="btn__color" data-value="blue" id="btn__blue">Blue</button>
+      <button class="btn__color" data-value="yellow" id="btn__yellow">
+        Yellow
+      </button>
+      <button class="btn__color" data-value="pink" id="btn__red">Pink</button>
+    </section>
+    <!-- Item List -->
+    <ul class="items" id="items"></ul>
+  </body>
+</html>
